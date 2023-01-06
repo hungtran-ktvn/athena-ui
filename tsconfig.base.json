@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@athena-ui/button": ["libs/ui/button/src/index.ts"],
+      "@athena-ui/check-box": ["libs/ui/check-box/src/index.ts"],
+      "@athena-storybook-host": ["libs/storybook-host/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
